@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Sessions and credentials
+*.session
+*.session-journal
+*.sessionstr
+sessions/*
+!sessions/.gitkeep
+
+# Logs
+*.log
+logs/*
+!logs/.gitkeep
+server_output.txt
+
+# Environment variables
+.env
+.env.*
+
+# IDE / OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
